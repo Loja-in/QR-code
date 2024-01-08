@@ -38,7 +38,24 @@ body{
     
 
 }
+footer{
+    bottom:0;
+    text-align: center;
+    font-size: 13px;
+}
+footer a , span{
+    text-decoration: none;
+    color: hsl(220, 15%, 55%);
+    cursor: pointer;
+}
+footer a:hover{
+    color: hsl(218, 44%, 22%);
+}
+footer span:hover{
+    color: hsl(218, 44%, 22%);
 
+
+}
 /* For Mobile devices */
 @media only screen and (max-width: 375px) {
     .container {
